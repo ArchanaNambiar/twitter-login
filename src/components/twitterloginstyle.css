@@ -1,0 +1,128 @@
+/* .container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-half {
+  flex: 1;
+  background-color: #fff;
+}
+
+.right-half {
+  flex: 1;
+  background-color: #f5f8fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0e7eeb;
+}
+
+p {
+  margin: 10px;
+}
+
+a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-right: 20px;
+}
+
+footer p {
+  font-size: 12px;
+  margin-top: 10px;
+} */
+
+.App {
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+}
+
+.left-half {
+  width: 50%;
+}
+.left-half img{
+  width: 100%;
+  height:100%;
+  display: block;
+
+}
+
+.right-half {
+  width: 50%;
+}
+.right-half .btn {
+  width:80%;
+   margin-left: 20px;
+   margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.btn button{
+  width: 100%; /* Each button takes up full width of the container */
+  padding: 10px;
+  margin-bottom: 10px; /* Adds spacing between buttons */
+  background-color:  #fff;
+  color: black;
+
+  border:1px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin-right: 10px;
+  font-size: 12px;
+}
